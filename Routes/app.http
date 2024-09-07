@@ -1,0 +1,22 @@
+POST http://localhost:3000/users
+Content-Type:  application/json
+
+{
+  "name":"vaishu",
+  "email":"vaishu8@gmail.com",
+  "number":"1234567",
+  "gender":"female",
+  "password":"pass@123"
+  
+}
+
+###
+GET http://localhost:3000/users
+Content-Type:  application/json
+
+### get one data 
+GET http://localhost:3000/users/sanjay@gmail.com
+Content-Type:  application/json
+
+### delete method
+DELETE  http://localhost:3000/users/nikitha@gmail.com
